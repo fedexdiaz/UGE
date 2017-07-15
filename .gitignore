@@ -15,8 +15,6 @@ local.properties
 *.launch
 # PyDev specific (Python IDE for Eclipse)
 *.pydevproject
-# CDT-specific (C/C++ Development Tooling)
-.cproject
 # Java annotation processor (APT)
 .factorypath
 # PDT-specific (PHP Development Tools)
