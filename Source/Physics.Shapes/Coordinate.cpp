@@ -20,9 +20,7 @@ void Coordinate::SetY(int y){
 }
 
 string Coordinate::ToString(){
-	string x = std::to_string(this->x);
-	string y = std::to_string(this->y);
-	return "(" + x + ", " + y + ")";
+	return "()";
 }
 
 bool Coordinate::Equals(Coordinate* coordinate){

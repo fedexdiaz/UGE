@@ -9,6 +9,9 @@ local.properties
 .settings/
 .loadpath
 .recommenders
+*.cproject
+*.project
+*~
 # External tool builders
 .externalToolBuilders/
 # Locally stored "Eclipse launch configurations"

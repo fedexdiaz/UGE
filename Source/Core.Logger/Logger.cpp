@@ -10,19 +10,19 @@ void Logger::Logger::RemoveAppender(Appender* appender){
 }
 
 void Logger::Logger::LogFatalMessage(const string& message){
-	LogMessage(message, LogLevelType::Fatal);
+	LogMessage(message, Fatal);
 }
 
 void Logger::Logger::LogErrorMessage(const string& message){
-	LogMessage(message, LogLevelType::Error);
+	LogMessage(message, Error);
 }
 
 void Logger::Logger::LogInfoMessage(const string& message){
-	LogMessage(message, LogLevelType::Info);
+	LogMessage(message, Info);
 }
 
 void Logger::Logger::LogDebugMessage(const string& message){
-	LogMessage(message, LogLevelType::Debug);
+	LogMessage(message, Debug);
 }
 
 void Logger::LogMessage(const string& message, LogLevelType logLevelType){
